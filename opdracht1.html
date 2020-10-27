@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function knop1(){
+            var invoer = document.getElementById("invoerhallo").value;
+            if(invoer == "hallo"){
+                alert("Welkom")
+            }   else if (invoer == "doei"){
+                alert ("Tot ziens")
+            }
+
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+    <input type="text" name="tekstveld1" id="invoerhallo">
+    <input type="button" name="verstuur" value="knopje" onclick="knop1()"> 
+</body>
+</html>
